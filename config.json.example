@@ -1,0 +1,26 @@
+{
+  "timezone": "Asia/Shanghai",
+  "startup_delay_minutes": 10,
+  "fixed_times": ["00:30", "15:00", "20:00", "23:30"],
+  "request_timeout": 30.0,
+  "max_retries": 2,
+  "retry_backoff_s": 2.0,
+  "log_file": "logs/checkin.log",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+  "sites": [
+    {
+      "name": "示例站点-api模式",
+      "url": "https://newapi.example.com",
+      "mode": "api",
+      "token": "在这里填入你的 access_token",
+      "user_id": 123
+    },
+    {
+      "name": "示例站点-login模式",
+      "url": "https://another.example.com",
+      "mode": "login",
+      "username": "your_username",
+      "password": "your_password"
+    }
+  ]
+}

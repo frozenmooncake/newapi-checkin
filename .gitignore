@@ -1,0 +1,12 @@
+# 敏感信息，勿上传
+config.json
+
+# 运行产物
+__pycache__/
+*.pyc
+logs/
+*.log
+
+# 系统
+Thumbs.db
+Desktop.ini
